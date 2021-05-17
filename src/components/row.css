@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.row_cover{
+    margin-left: 20px;
+}
+
 .row::-webkit-scrollbar{
     display: none;
 }
@@ -20,4 +24,10 @@
 .poster_row:hover{
     transform: scale(1.5);
 
+}
+.Large_poster{
+    max-height: 250px;
+}
+.Large_poster:hover{
+    transform: scale(1.8);
 }
